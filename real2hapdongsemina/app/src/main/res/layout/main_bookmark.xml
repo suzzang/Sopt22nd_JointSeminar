@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/bookmark_title"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="북마크"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#1abc9c"
+        android:background="@color/colorAccent"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_bookmarklist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bookmark_title">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
